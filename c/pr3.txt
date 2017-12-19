@@ -1,0 +1,14 @@
+2. Write a C program to find the sum of first 10 natural numbers
+#include<stdio.h>
+#define True 1
+
+int main() {
+   int i,sum;
+   for(i=0;i<=10;i++)
+   {
+       sum+=i;
+       
+   }
+   printf("%d ",sum);
+   
+}

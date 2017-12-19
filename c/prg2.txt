@@ -1,0 +1,11 @@
+#include<stdio.h>
+#define True 1
+
+int main() {
+   int i;
+   for(i=122;i>=97;i--)
+   {
+       printf("%c=%d ",(char)i,i);
+   }
+   
+}

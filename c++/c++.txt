@@ -1,0 +1,48 @@
+To print first 10 numbers
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	int i;
+	for(i=1;i<=10;i++)
+	cout<<" "<< i;
+}
+
+------------------------------------------------
+program to swap two numbers
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	int i,j;
+	cin>>i>>j;
+	i=j+i-(j=i);
+	
+	cout<<" "<< i<<" "<<j;
+}
+
+--------------------------------------------------
+program using struct
+
+#include <iostream>
+#include<string>
+#include<sstream>
+
+using namespace std;
+struct product{
+    string name;
+    int cost;
+}one,two;
+
+int main() {
+	one.name="fridge";
+	one.cost=20000;
+	two.name="laptop";
+	two.cost=30000;
+	cout<<one.name <<one.cost ;
+	cout<<two.name<<two.cost;
+}
